@@ -1,3 +1,29 @@
+.btn_shadow_social {
+  margin-right: 15px;
+  padding: 12px 12px;
+  border-radius: 50%;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow_social {
+  background: linear-gradient(145deg, #73c3f8, #ebe2e2);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow_social:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+.find_me {
+  font-weight: 500;
+  letter-spacing: 2px;
+  color: #43474b;
+  font-size: 15px;
+  margin: 20px 0 20px 0;
+}
+
 .hero {
   position: relative;
 }
@@ -28,7 +54,7 @@
   margin-top: 30px;
 }
 .hero_btn {
-  margin-top: 20%;
+  margin-top: 5%;
 }
 .hero_btn h4 {
   font-weight: 500;
