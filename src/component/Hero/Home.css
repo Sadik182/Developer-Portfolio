@@ -120,6 +120,15 @@
   right: 10%;
   width: 510px;
 }
+/* @media (max-width: 1366px) {
+  .left {
+    width: 70%;
+  }
+  .hero .right {
+    width: 30%;
+  }
+  
+} */
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {
