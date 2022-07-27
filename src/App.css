@@ -64,10 +64,14 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
-.row,
-.left,
-.right {
+.row {
   width: 50%;
+}
+.left {
+  width: 60%;
+}
+.right {
+  width: 40%;
 }
 .top {
   margin-top: 80px;

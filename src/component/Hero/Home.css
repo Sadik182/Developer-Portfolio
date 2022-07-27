@@ -1,3 +1,28 @@
+.btn_shadow_hire_me {
+  margin-right: 20px;
+  margin-top: 20px;
+  padding: 18px 25px;
+  border-radius: 6px;
+  transition: 0.3s all ease;
+  cursor: pointer;
+  color: #000;
+  transition: 0.5s;
+}
+.btn_shadow_hire_me {
+  background: linear-gradient(145deg, #73c3f8, #ebe2e2);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+}
+.btn_shadow_hire_me:hover {
+  background: #ff014f;
+  color: white;
+  transform: translateY(-10px);
+}
+.box_shodow {
+  background: linear-gradient(145deg, #e2e8ec, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  border-radius: 10px;
+}
+
 .btn_shadow_social {
   margin-right: 15px;
   padding: 12px 12px;
