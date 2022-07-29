@@ -6,8 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import image from '../../images/portfolio_2.jpg'
 
 const Card = (props) => {
-  console.log(props.image);
- 
+
   return (
     <>
         <div className="btn_shadow">
