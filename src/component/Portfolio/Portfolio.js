@@ -33,20 +33,13 @@ const Portfolio = () => {
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
             <h1>My Portfolio</h1>
             <ul className="compunent">
-              {
-                list.map((item) => {
-                  active = {selected === item.id}
-                  <li className={active ? 'item active':'item'}>{item.title}</li>
-                })
-              }
+              
             </ul>
           </div>
-
-          <div className='content grid'>
-            {Portfolio_data.map((value, index) => {
-              return <Card key={index} image={value.image} category={value.category} totalLike={value.totalLike} title={value.title} />
-            })}
+          <div>
+            
           </div>
+          
         </div>
       </section>
     </>

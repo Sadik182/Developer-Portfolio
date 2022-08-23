@@ -1,6 +1,6 @@
 import React, { useState } from "react"
 import "./header.css"
-import logo from "../pic/logo.png"
+import logo from "../pic/logo2.png"
 
 const Header = () => {
   // fixed Header
@@ -33,9 +33,7 @@ const Header = () => {
               <li>
                 <a href='#resume'>resume</a>
               </li>
-              <li>
-                <a href='#clients'>clients</a>
-              </li>
+              
               <li>
                 <a href='#contact'>contact</a>
               </li>

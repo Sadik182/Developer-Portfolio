@@ -2,34 +2,31 @@ const ResumeApi = [
   {
     id: 1,
     category: "education",
-    year: "University of DVI (1997 - 2001)",
-    title: "Personal Portfolio April Fools",
-    desc: "The education should be very interactual. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.30/5",
+    year: "International University of Business Agriculture and Technology(2018-2022)",
+    title: "Bsc in Computer Science and Engineering",
+    rate: "3.7/4",
   },
   {
     id: 2,
     category: "education",
-    year: "College of Studies (2000 - 2002) ",
-    title: "Examples Of Personal Portfolio",
-    desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.50/5",
+    year: "CCN Polytechnic Institute (2013 - 2017) ",
+    title: "Diploma in Computer Technology",
+    rate: "3.72/4",
   },
   {
     id: 3,
     category: "education",
-    year: "University of Studies (1997 - 2001) ",
-    title: "Tips For Personal Portfolio",
-    desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.80/5 ",
+    year: "kuti A. B. High School (2006 - 2012) ",
+    title: "Secondary School Cirtificate (SSC)",
+    // desc: "If you are going to use a passage. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    rate: "3.38/5 ",
   },
   {
     id: 4,
     category: "experience",
-    year: "BSE In CSE (2004 - 2008) ",
-    title: "Diploma in Web Development",
+    year: "Aurora IT - 21 (Januarry, 2022 - Current)",
+    title: "Jr. Software Engineer",
     desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "4.70/5 ",
   },
   {
     id: 5,
@@ -39,14 +36,7 @@ const ResumeApi = [
     desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
     rate: "4.95/5 ",
   },
-  {
-    id: 6,
-    category: "experience",
-    year: "Works at Plugin Development (2016 - 2020) ",
-    title: "Diploma in Computer Science",
-    desc: "Maecenas finibus nec sem ut imperdiet. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
-    rate: "5.00/5 ",
-  },
+ 
 ]
 
 export default ResumeApi

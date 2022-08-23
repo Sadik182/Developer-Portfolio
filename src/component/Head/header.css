@@ -1,3 +1,7 @@
+.logo img{
+  width: 240px;
+  height: 80px;
+}
 header {
   height: 10vh;
   line-height: 10vh;

@@ -1,7 +1,9 @@
 import React, { useState } from "react"
 import contact1 from "./contact1.png"
 import "./Contact.css"
-
+import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
+import {faGithub, faFacebookF, faLinkedinIn, faMailchimp} from '@fortawesome/free-brands-svg-icons'
+import {faArrowRight, faPhone, faPhoneAlt, faMailBulk, faMailReply, faMailForward} from "@fortawesome/free-solid-svg-icons"
 const Contact = () => {
   const [data, setData] = useState({
     fullname: "",
@@ -38,6 +40,7 @@ const Contact = () => {
         <div className='container top'>
           <div className='heading text-center'>
             <h4>CONTACT</h4>
+            <h5>If You Have Any Project In Your Mind</h5>
             <h1>Contact With Me</h1>
           </div>
 
@@ -48,21 +51,21 @@ const Contact = () => {
                   <img src={contact1} alt='' />
                 </div>
                 <div className='details'>
-                  <h1>Nevine Acotanza</h1>
-                  <p>Chief Operating Officer</p>
-                  <p>I am available for freelance work. Connect with me via and call in to my account.</p> <br />
-                  <p>Phone: +01234567890</p>
-                  <p>Email: admin@example.com</p> <br />
+                  <h1>Md. Sadikur Rahman</h1>
+                  <h3>Jr. Software Engineer</h3>
+                  <p>I am available for freelance work. If you have any project in your mind Connect with me via and call in to my account. I will make it soon as possible.</p> <br />
+                  <p><FontAwesomeIcon icon={faPhone} /> (+88) 01715925172</p>
+                  <p><FontAwesomeIcon icon={faMailBulk} /> Sadikurrahman728@gmail.com</p> <br />
                   <span>FIND WITH ME</span>
                   <div className='button f_flex'>
                     <button className='btn_shadow'>
-                      <i className='fab fa-facebook-f'></i>
+                    <a href="https://www.facebook.com/Sadik1820/"><FontAwesomeIcon icon={faFacebookF} size="2x"/></a>
                     </button>
                     <button className='btn_shadow'>
-                      <i className='fab fa-instagram'></i>
+                    <a href="https://www.linkedin.com/in/sadik182/"><FontAwesomeIcon icon={faLinkedinIn} size="2x"/></a>
                     </button>
                     <button className='btn_shadow'>
-                      <i className='fab fa-twitter'></i>
+                    <a href="https://github.com/Sadik182 "><FontAwesomeIcon icon={faGithub} size="2x"/></a>
                     </button>
                   </div>
                 </div>
@@ -94,7 +97,7 @@ const Contact = () => {
                   <textarea cols='30' rows='10' name='message' value={data.message} onChange={InputEvent}></textarea>
                 </div>
                 <button className='btn_shadow'>
-                  SEND MESSAGE <i className='fa fa-long-arrow-right'></i>
+                  SEND MESSAGE <FontAwesomeIcon icon={faArrowRight} size = "1x"/>
                 </button>
               </form>
             </div>

@@ -26,7 +26,7 @@ const Home = () => {
             </h2>
 
             <p>I am a Jr. Software Engineer. If you have any project in your mind, Contact with me. I will make it soon as posible.</p>
-            <button className="btn_shadow_hire_me">Hire Me</button>
+            <a href="#contact"> <button className="btn_shadow_hire_me">Hire Me</button></a>
             <button className="btn_shadow_hire_me">Download CV</button>
 
             

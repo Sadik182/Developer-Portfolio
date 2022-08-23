@@ -13,10 +13,9 @@ const Card = (props) => {
           <img src={image} alt="" />
           <h3>{props.category}</h3>
           <div className="d-flex">
-            <a href="#" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x"/></a>
+            <a href="https://github.com/Sadik182?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x"/></a>
             <a href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x"/></a>
             
-    
           </div>
         </div>
     </>
