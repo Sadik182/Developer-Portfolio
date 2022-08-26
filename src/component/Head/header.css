@@ -43,7 +43,7 @@
   display: none;
 }
 .header.active {
-  height: 20vh;
+  height: 15vh;
   position: fixed;
   top: 0;
   z-index: 1000;
