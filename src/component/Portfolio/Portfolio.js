@@ -29,33 +29,57 @@ const Portfolio = () => {
             <a className="liveDemo" href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
                 </Card.Footer>
               </Card>
-              <Card>
-              <Card.Img variant="top" src={image} />
+              <Card className="btn_shadow2">
+                <Card.Img variant="top" src={image} className="cardImage"/>
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This card has supporting text below as a natural lead-in to
-                    additional content.{" "}
-                  </Card.Text>
+                  <Card.Title className="cardTitle">Doctors Portal Using MERN Stack</Card.Title>
                 </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                <Card.Footer className='d-flex'>
+                <a className="gitHub" href="https://github.com/Sadik182?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
+            <a className="liveDemo" href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
                 </Card.Footer>
               </Card>
-              <Card>
-              <Card.Img variant="top" src={image} />
+              <Card className="btn_shadow2">
+                <Card.Img variant="top" src={image} className="cardImage"/>
                 <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This is a wider card with supporting text below as a natural
-                    lead-in to additional content. This card has even longer
-                    content than the first to show that equal height action.
-                  </Card.Text>
+                  <Card.Title className="cardTitle">Doctors Portal Using MERN Stack</Card.Title>
                 </Card.Body>
-                <Card.Footer>
-                  <small className="text-muted">Last updated 3 mins ago</small>
+                <Card.Footer className='d-flex'>
+                <a className="gitHub" href="https://github.com/Sadik182?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
+            <a className="liveDemo" href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
                 </Card.Footer>
               </Card>
+              <Card className="btn_shadow2">
+                <Card.Img variant="top" src={image} className="cardImage"/>
+                <Card.Body>
+                  <Card.Title className="cardTitle">Doctors Portal Using MERN Stack</Card.Title>
+                </Card.Body>
+                <Card.Footer className='d-flex'>
+                <a className="gitHub" href="https://github.com/Sadik182?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
+            <a className="liveDemo" href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
+                </Card.Footer>
+              </Card>
+              <Card className="btn_shadow2">
+                <Card.Img variant="top" src={image} className="cardImage"/>
+                <Card.Body>
+                  <Card.Title className="cardTitle">Doctors Portal Using MERN Stack</Card.Title>
+                </Card.Body>
+                <Card.Footer className='d-flex'>
+                <a className="gitHub" href="https://github.com/Sadik182?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
+            <a className="liveDemo" href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
+                </Card.Footer>
+              </Card>
+              <Card className="btn_shadow2">
+                <Card.Img variant="top" src={image} className="cardImage"/>
+                <Card.Body>
+                  <Card.Title className="cardTitle">Doctors Portal Using MERN Stack</Card.Title>
+                </Card.Body>
+                <Card.Footer className='d-flex'>
+                <a className="gitHub" href="https://github.com/Sadik182?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
+            <a className="liveDemo" href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
+                </Card.Footer>
+              </Card>
+            
             </CardGroup>
           </div>
         </div>
