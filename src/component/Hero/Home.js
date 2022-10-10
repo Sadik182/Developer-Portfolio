@@ -16,7 +16,7 @@ const Home = () => {
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I’m <span>Md. Sadikur Rahman</span>
+              Hi, I’m <span>Sadik</span>
             </h1>
             <h2>
               a
