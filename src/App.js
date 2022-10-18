@@ -8,6 +8,8 @@ import Testimonial from "./component/Testimonial/Testimonial"
 import Contact from "./component/Contact/Contact"
 import Footer from "./component/Footer"
 import "./App.css"
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const App = () => {
   return (

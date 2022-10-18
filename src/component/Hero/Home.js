@@ -1,9 +1,6 @@
 import React from "react"
 import "./Home.css"
 import hero from "../pic/hero2.png"
-import skill1 from "../pic/skill1.png"
-import skill2 from "../pic/skill2.png"
-import skill3 from "../pic/skill3.png"
 import { Typewriter } from "react-simple-typewriter"
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faGithub, faTwitter, faFacebookF, faLinkedinIn, faReact, faNode, faNodeJs, faHtml5, faCss3, faBootstrap} from '@fortawesome/free-brands-svg-icons'
