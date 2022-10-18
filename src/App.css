@@ -97,7 +97,7 @@ h1 {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 35px;
+  grid-gap: 30px;
 }
 p {
   color: #3c3e41;
