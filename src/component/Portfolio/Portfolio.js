@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Portfolio.css";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
@@ -11,7 +11,7 @@ const Portfolio = () => {
   return (
     <>
       <section className="Portfolio top" id="portfolio">
-        <div className="container">
+        <div className="container1">
           <div className="heading text-center ">
             <h4>VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK</h4>
             <h1>My Portfolio</h1>
@@ -25,8 +25,8 @@ const Portfolio = () => {
                   <Card.Title className="cardTitle">Doctors Portal Using MERN Stack</Card.Title>
                 </Card.Body>
                 <Card.Footer className='d-flex'>
-                <a className="gitHub" href="https://github.com/Sadik182?tab=repositories" target="_blank"><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
-            <a className="liveDemo" href="#" target="_blank"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
+                <a className="gitHub" href="https://github.com/Sadik182?tab=repositories"><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
+            <a className="liveDemo" href="https://github.com/Sadik182?tab=repositories"><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
                 </Card.Footer>
               </Card>
               <Card className="btn_shadow2">
