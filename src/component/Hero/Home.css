@@ -24,13 +24,17 @@
 }
 
 .btn_shadow_social {
-  margin-right: 15px;
-  padding: 12px 12px;
+  margin-right: 10px;
+  padding: 15px 15px;
   border-radius: 50%;
   transition: 0.3s all ease;
   cursor: pointer;
   color: #000;
-  transition: 0.5s;
+  transition: 0.4s;
+}
+.btn_shadow_social a {
+  font-size: 12px;
+
 }
 .btn_shadow_social {
   background: linear-gradient(145deg, #73c3f8, #ebe2e2);
@@ -39,7 +43,7 @@
 .btn_shadow_social:hover {
   background: #ff014f;
   color: white;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
 }
 .find_me {
   font-weight: 500;
@@ -49,12 +53,12 @@
   margin: 20px 0 20px 0;
 }
 
-.hero {
+/* .hero {
   position: relative;
-}
+} */
 .hero h3 {
   font-weight: 100;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .hero h1 {
   font-size: 60px;
@@ -100,35 +104,36 @@
   height: 20px;
 }
 .hero .left {
-  margin-right: 10%;
+  margin-right: 1%;
 }
 .hero .right {
-  width: 40%;
+  width: 30%;
   position: relative;
 }
 .hero .right_img {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
-  height: 580px;
-  width: 510px;
-  margin-top: 20%;
+  height: 533px;
+  width: 100%;
+  margin-top: 30%;
 }
 .hero .right_img img {
   position: absolute;
   top: 0;
-  right: 10%;
-  width: 510px;
+  left: 75;
+  width: 100%;
+  height: 680px;
 }
-/* @media (max-width: 1366px) {
-  .left {
+@media (max-width: 1366px) {
+  .hero .left {
     width: 70%;
   }
   .hero .right {
     width: 30%;
   }
   
-} */
+}
 @media (max-width: 768px) {
   .hero .right,
   .hero .left {

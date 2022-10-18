@@ -1,6 +1,7 @@
 import React from "react"
 import "./Home.css"
 import hero from "../pic/hero2.png"
+import hero2 from '../../images/hero.png'
 import { Typewriter } from "react-simple-typewriter"
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faGithub, faTwitter, faFacebookF, faLinkedinIn, faReact, faNode, faNodeJs, faHtml5, faCss3, faBootstrap} from '@fortawesome/free-brands-svg-icons'
@@ -9,11 +10,11 @@ const Home = () => {
   return (
     <>
       <section className='hero' id='home'>
-        <div className='container f_flex top'>
+        <div className='container1 d_flex top '> 
           <div className='left top'>
             <h3>WELCOME TO MY WORLD</h3>
             <h1>
-              Hi, I’m <span>Sadik</span>
+              Hi, I’m <span>Md. Sadikur Rahman</span>
             </h1>
             <h2>
               a
@@ -46,12 +47,6 @@ const Home = () => {
                </div>
               <div className='col_1'>
                 <h4>BEST SKILL ON</h4>
-                <button className='btn_shadow_social'>
-                  <a href="#"><FontAwesomeIcon icon={faHtml5} size="2x"/></a>
-                  </button>
-                  <button className='btn_shadow_social'>
-                  <a href="#"><FontAwesomeIcon icon={faCss3} size="2x"/></a>
-                  </button>
                   <button className='btn_shadow_social'>
                   <a href="#"><FontAwesomeIcon icon={faBootstrap} size="2x"/></a>
                   </button>
@@ -68,7 +63,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className='right'>
+          <div className='right '>
             <div className='right_img'>
               <img src={hero} alt='' />
             </div>

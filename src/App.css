@@ -11,8 +11,8 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: #ecf0f3;
 }
-.container {
-  max-width: 95%;
+.container1 {
+  max-width: 90%;
   margin: auto;
 }
 .d_flex {
@@ -68,10 +68,10 @@ button {
   width: 50%;
 }
 .left {
-  width: 60%;
+  width: 70%;
 }
 .right {
-  width: 40%;
+  width: 30%;
 }
 .top {
   margin-top: 80px;

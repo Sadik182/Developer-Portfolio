@@ -3,7 +3,7 @@
   height: 70px;
 }
 .header {
-  height: 10vh;
+  height: 12vh;
   line-height: 10vh;
 
 }
@@ -20,7 +20,7 @@
   display: none;
 }
 .header.active {
-  height: 17vh;
+  height: 15vh;
   position: fixed;
   top: 0;
   z-index: 1000;

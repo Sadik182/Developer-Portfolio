@@ -7,7 +7,7 @@ const Features = () => {
   return (
     <>
       <section className='features top' id='features'>
-        <div className='container'>
+        <div className='container1'>
           <div className='heading'>
             <h4>Features</h4>
             <h1>What I Do</h1>
