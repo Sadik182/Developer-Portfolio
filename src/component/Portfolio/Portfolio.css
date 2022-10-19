@@ -1,8 +1,3 @@
-.cardGroup {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
-}
 
 .cardImage {
   width: 100%;
@@ -21,6 +16,12 @@
   color: red;
 }
 
+.cardStyle:hover {
+  background: linear-gradient(145deg, #727374, #ffffff);
+  box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
+  transform: translateY(-10px);
+}
+
 .btn_shadow2 {
   padding: 8px 15px;
   border-radius: 6px;
@@ -37,6 +38,7 @@
 .btn_shadow2:hover {
   background: #057dee;
   color: white;
+  transition: all 0.2s;
   transform: translateY(-10px);
 }
 
@@ -45,22 +47,7 @@
   justify-content: space-between;
   align-items: center;
 }
-.compunent {
-  display: flex;
-  justify-content: center;
-  
-}
-.compunent .item {
-  margin: 10px;
-  padding: 10px 15px;
-  border-radius: 5px;
-  cursor: pointer;
-  background: linear-gradient(white, rgb(206, 197, 197));
-}
-.compunent .item:hover {
-  background: tomato;
-  color: white;
-}
+
 .item.active {
   background: black;
   color: white;

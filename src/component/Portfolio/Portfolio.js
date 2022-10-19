@@ -24,25 +24,27 @@ const Portfolio = () => {
             <h1>My Portfolio</h1>
           </div>
         <div className="container1">
-          <div className="row justify-content-center align-items-center">
-          {
-            slice.map((item, index) => {
-              return (
-                <div className="btn_shadow2 col-12 col-lg-4 col-md-6 mb-4" key={index}>
-                  <img src={item.img} alt="" className="cardImage" />
-                   <h3 className="cardTitle">{item.title}</h3>
-                  <div className="d-flex">
-                   <a className="gitHub" href={item.git}><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
-                   <a className="liveDemo" href={item.live}><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
-                  </div>
-               </div>
-              )
-            })
-          }
-          </div>
-          {
-            show < 6 ? (<button onClick={loadMore} className="btn btn-dark d-block w-100">Load More</button>): (null)
-          }
+            <div className="row justify-content-center align-items-center">
+                {
+                  slice.map((item, index) => {
+                    return (
+                      <div className="col-lg-4 col-md-6 mb-4" key={index}>
+                       <div className="card p-2 overflow-hidden h-100 shadow cardStyle">
+                            <img src={item.img} alt="" className="cardImage card-img-top" />
+                            <h3 className="cardTitle">{item.title}</h3>
+                            <div className="d-flex card-body">
+                              <a className="gitHub" href={item.git}><FontAwesomeIcon icon={faGithub} size="2x" title="Source Code"/></a>
+                              <a className="liveDemo" href={item.live}><FontAwesomeIcon icon={faExternalLink} size="2x" title="Live Demo"/></a>
+                            </div>
+                       </div>
+                    </div>
+                    )
+                  })
+                }
+            </div>
+              {
+                show < 6 ? (<button onClick={loadMore} className="btn btn-dark d-block w-100">Load More</button>): (null)
+              }
         </div>
       </section>
     </>

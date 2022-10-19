@@ -114,7 +114,7 @@
   background: linear-gradient(145deg, #e2e8ec, #ffffff);
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
-  height: 533px;
+  height: 500px;
   width: 100%;
   margin-top: 30%;
 }
@@ -123,7 +123,7 @@
   top: 0;
   left: 75;
   width: 100%;
-  height: 680px;
+  height: 600px;
 }
 @media (max-width: 1366px) {
   .hero .left {
