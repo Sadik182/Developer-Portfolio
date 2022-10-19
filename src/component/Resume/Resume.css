@@ -1,8 +1,8 @@
 .Resume .heading h1 {
-  font-size: 40px;
+  font-size: 35px;
 }
 .Resume .content {
-  max-width: 85%;
+  max-width: 84%;
   margin: auto;
 }
 .Resume .box {
@@ -49,7 +49,7 @@
   position: absolute;
   top: 16%;
   left: 0;
-  height: 80vh;
+  height: 80%;
   width: 5px;
   background: #d9dee2;
   z-index: -2;
@@ -57,10 +57,10 @@
 .Resume .box::after {
   content: "";
   position: absolute;
-  top: 14%;
-  left: -8%;
+  top: 12%;
+  left: -9%;
   height: 5px;
-  width: 50px;
+  width: 9%;
   background: #d9dee2;
 }
 .Resume .box::before {
@@ -76,7 +76,7 @@
   z-index: 5;
   transition: 0.5s;
 }
-.Resume .box:hover.box:before {
+.Resume .box:hover .box:before {
   background: #ff3a75;
 }
 @media (max-width: 768px) {

@@ -26,14 +26,14 @@ const ResumeApi = [
     category: "experience",
     year: "Aurora IT - 21 (Januarry, 2022 - Current)",
     title: "Jr. Software Engineer",
-    desc: "Contrary to popular belief. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    desc: "I joined here as a software engineer intern, After complleting the successful internship I got the opportunity to work as a full-time Jr. Software Engineer here. I am working on JavaScript, React, Nodejs, MongoDB "
   },
   {
     id: 5,
     category: "experience",
-    year: "Job at Rainbow-Themes (2008 - 2016) ",
-    title: "The Personal Portfolio Mystery",
-    desc: "Generate Lorem Ipsum which looks. Ut tincidunt est ac dolor aliquam sodales. Phasellus sed mauris hendrerit, laoreet sem in, lobortis mauris hendrerit ante.",
+    year: "Programing Hero (June, 2021 - January, 2022) ",
+    title: "Web Development Teaining",
+    desc: "Learning web related technologies and Developing web applications",
     rate: "4.95/5 ",
   },
  
