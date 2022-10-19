@@ -1,17 +1,18 @@
-.card_group {
+.cardGroup {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 25px;
+  gap: 20px;
 }
+
 .cardImage {
   width: 100%;
-  height: 250px;
-  border-radius: 5px;
+  height: 200px;
+  border-radius: 6px;
 }
 .cardTitle {
-  padding: 20px 0;
+  padding: 15px 0;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
 }
 .gitHub:hover {
  color: red;
@@ -21,12 +22,13 @@
 }
 
 .btn_shadow2 {
-  padding: 18px 25px;
+  padding: 8px 15px;
   border-radius: 6px;
   transition: 0.3s all ease;
   cursor: pointer;
   color: #000;
   transition: 0.5s;
+  
 }
 .btn_shadow2 {
   background: linear-gradient(145deg, #e2e8ec, #ffffff);

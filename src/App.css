@@ -64,9 +64,9 @@ button {
   box-shadow: 4px 4px 8px #cbcbcb, -4px -4px 8px #ffffff;
   border-radius: 10px;
 }
-.row {
+/* .row {
   width: 50%;
-}
+} */
 .left {
   width: 70%;
 }
